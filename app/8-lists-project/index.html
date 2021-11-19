@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .page-container{
+            max-width: 500px;
+            margin: auto;
+        }
+        .form-wrapper{
+            
+            border: solid 1px black;
+            padding: 10px;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul li{
+            
+            border: solid 1px black;
+            padding: 10px;
+            
+        }
+        .done{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="form-wrapper">
+            <form action="" id="todo-form">
+                <input type="text" name="" id="todo-task" placeholder="Enter the task">
+                <input type="submit" value="Add/update">
+            </form>
+        </div>
+        <ul id="task-container">
+            <li>
+                <span class="done">nananananan</span>
+                <a href="#" class="done-btn">done</a>
+                <a href="#" class="edit-btn">edit</a>
+                <a href="#" class="delete-btn">delete</a>
+            </li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
